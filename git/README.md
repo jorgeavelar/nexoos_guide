@@ -20,7 +20,7 @@ Maintain a repository
  - Delete local and remote feature branches after merging. Favor using `https://github.com/NexoosBR` merge process.
  - Perform work in a feature branch.
  - Rebase/Merge frequently to incorporate upstream changes.
- - Use a merge request for code reviews.
+ - Use a pull request for code reviews.
  - The `master` branch **must** be production-ready code **only**.
 
 Write a feature
