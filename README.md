@@ -8,6 +8,7 @@ A set of informal rules to enforce effective collaboration between teams and tea
 * [Oriented Object Design](/oop)
 * [Rails](/rails)
 * [RSpec](/rspec)
+* [Documentation](/docs)
 
 One Rule to Rule Them All:
 --------------------------
