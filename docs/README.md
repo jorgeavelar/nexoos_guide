@@ -24,6 +24,6 @@ TODO: Add description and business rules details (Under construction)
 
 ---
 ## Resources
-### - [Invoice](/resources/invoices.md)
-### - [Items](/resources/invoices/items.md)
+### - [Invoice](/docs/resources/invoices.md)
+### - [Items](/docs/resources/invoices/items.md)
 
