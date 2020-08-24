@@ -3,8 +3,11 @@ Nexoos Practices
 
 A set of informal rules to enforce effective collaboration between teams and teammates.
 
+* [General](/general)
 * [Git](/git)
+* [Oriented Object Design](/oop)
 * [Rails](/rails)
+* [RSpec](/rspec)
 
 One Rule to Rule Them All:
 --------------------------
@@ -19,10 +22,6 @@ Conventions:
 * "Prefer" indicates a better option and its alternative to watch out for.
 * "Use" is a positive instruction.
 
-Contributing:
--------------
-
-If you care about the practices listed here and have something you want to add or remove, feel free to open a new merge request.
 
 Credits
 -------
