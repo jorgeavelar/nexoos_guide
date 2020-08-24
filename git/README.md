@@ -6,8 +6,8 @@ Best practices in developing with version control.
 Creating a repository
 ---------------------
 
- - Master branch **must** be created as protected on `code.locaweb.com.br` to enforce code review and merge request processes.
- - Allow developers to push to master branch so they can accept merge requests.
+ - Master branch **must** be created as protected on `https://github.com/NexoosBR` to enforce code review and pull request processes.
+ - Allow developers to push to master branch so they can accept pul requests.
  - Projects are usually created as **internal** unless they have some strategic constraints.
 
 Maintain a repository
@@ -17,7 +17,7 @@ Maintain a repository
  - If you have files that are specific to your development machine or process and it's created just for a specifc projet you can use the `.git/info/exclude` to ignore it just for that project. Pay attetion because this file is not commited in the project.
  - Add to `.gitignore` of a repository files that should not be part of it, like temporary files of a framework or language (reports, logs, etc).
  - GitHub has a collection of .gitignore templates for both local and global use. They can be found [here](https://github.com/github/gitignore).
- - Delete local and remote feature branches after merging. Favor using `code.locaweb.com.br` merge process.
+ - Delete local and remote feature branches after merging. Favor using `https://github.com/NexoosBR` merge process.
  - Perform work in a feature branch.
  - Rebase/Merge frequently to incorporate upstream changes.
  - Use a merge request for code reviews.
@@ -82,25 +82,25 @@ Don't end the summary line with a period.
 git rebase -i origin/master
 ```
 
-Share your branch (if local) to create the merge request.
+Share your branch (if local) to create the pull request.
 
 ```
 git push origin <branch-name>
 ```
 
-Submit a `code.locaweb.com.br` merge request.
+Submit a `https://github.com/NexoosBR` pull request.
 
 Code Review
 -----------
 
-A team member that is **not** you, must review your merge request.
+A team member that is **not** you, must review your pull request.
 
-Use the `code.locaweb.com.br` comment system.
+Use the `https://github.com/NexoosBR` comment system.
 
 Merge
 -----
 
-Use the `code.locaweb.com.br` merge request interface to accept the merge request deleting the source branch.
+Use the `https://github.com/NexoosBR` merge request interface to accept the pull request deleting the source branch.
 
 If the branch cannot be automatically merged, use the following procedure:
 
@@ -137,4 +137,4 @@ git push origin --delete <branch-name>
 git branch --delete <branch-name>
 ```
 
-Mark the merge request as merged on `code.locaweb.com.br`.
+Mark the pull request as merged on `https://github.com/NexoosBR`.
